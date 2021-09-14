@@ -7,6 +7,10 @@ import (
 	_ "github.com/mattn/go-sqlite3"
 )
 
+/*
+	Ce fichier contient toute les fonctions qui vont intéragir avec la BDD
+*/
+
 // ! Interface pour accéder à notre BDD
 type Store interface {
 	Open() error  // Ouvrir la connexion vers notre BDD SQL
